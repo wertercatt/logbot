@@ -66,11 +66,11 @@ def urlify2(value):
 DEBUG = False
 
 # IRC Server Configuration
-SERVER = "irc.freenode.net"
+SERVER = "irc.mindfang.org"
 PORT = 6667
 SERVER_PASS = None
-CHANNELS=["#excid3","#keryx"]
-NICK = "timber"
+CHANNELS=["#The_Travelling_Tavern","#pesterchum"]
+NICK = "pcc31"
 NICK_PASS = ""
 
 # The local folder to save logs
@@ -210,7 +210,7 @@ def replace_color(code, text):
 
 class Logbot(SingleServerIRCBot):
     def __init__(self, server, port, server_pass=None, channels=[],
-                 nick="timber", nick_pass=None, format=default_format):
+                 nick="pcc31", nick_pass=None, format=default_format):
         SingleServerIRCBot.__init__(self,
                                     [(server, port, server_pass)],
                                     nick,

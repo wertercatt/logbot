@@ -69,7 +69,7 @@ DEBUG = False
 SERVER = "irc.mindfang.org"
 PORT = 6667
 SERVER_PASS = None
-CHANNELS=["#Anyone_Want_to_Talk","#pesterchum"]
+CHANNELS=["#SBARGLostPawns_ScourgeFight,#The_Former_SBARG_Players"]
 NICK = "pcc31"
 NICK_PASS = ""
 
